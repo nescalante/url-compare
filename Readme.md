@@ -1,6 +1,6 @@
-# url-compare
+# url-compare [![Build Status](https://travis-ci.org/nescalante/url-compare.svg?branch=master)](https://travis-ci.org/nescalante/url-compare)
 
-> Url comparisions for humans
+> Url comparisons for humans
 
 ## Install
 
