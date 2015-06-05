@@ -14,6 +14,7 @@ function compare(uriStr1, uriStr2) {
   return urlObj1.port === urlObj2.port &&
     urlObj1.protocol === urlObj2.protocol &&
     urlObj1.hostname === urlObj2.hostname &&
+    urlObj1.pathname === urlObj2.pathname &&
     compareQueryStrings(urlObj1.query, urlObj2.query);
 }
 

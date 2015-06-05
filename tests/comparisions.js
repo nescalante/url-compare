@@ -12,6 +12,7 @@ test('comparisons', function (t) {
   t.false(compare('https://example.com:80', 'http://example.com:80'), 'ensure protocol comparison');
   t.false(compare('https://example.com:80/route', 'https://example.com/route'), 'ensure default https protocol check');
   t.false(compare('http://example123.com', 'http://example456.com'), 'ensure domain comparison');
+  t.false(compare('https://localhost/callback', 'https://localhost:443/differentcallback'), 'ensure path comparison');
 
   t.end();
 });
