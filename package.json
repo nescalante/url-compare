@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/nescalante/url-compare",
   "devDependencies": {
-    "jshint": "~2.6.0",
-    "jshint-stylish": "~1.0.0",
+    "jshint": "~2.9.4",
+    "jshint-stylish": "~2.2.1",
     "tape": "^4.0.0"
   }
 }
