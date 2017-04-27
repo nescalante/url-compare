@@ -4,7 +4,7 @@
   "description": "Compare URIs semantically",
   "main": "index.js",
   "scripts": {
-    "test": "jshint . --reporter node_modules/jshint-stylish/stylish.js && tape tests/**/*.js"
+    "test": "jshint . && tape tests/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,7 @@
   },
   "homepage": "https://github.com/nescalante/url-compare",
   "devDependencies": {
-    "jshint": "~2.9.4",
-    "jshint-stylish": "~2.2.1",
+    "jshint": "^2.9.4",
     "tape": "^4.0.0"
   }
 }
