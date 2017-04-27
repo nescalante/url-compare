@@ -1,4 +1,4 @@
-# url-compare [![Build Status](https://travis-ci.org/nescalante/url-compare.svg?branch=master)](https://travis-ci.org/nescalante/url-compare)
+# url-compare [![Build Status](https://travis-ci.org/nescalante/url-compare.svg?branch=master)](https://travis-ci.org/nescalante/url-compare) [![Greenkeeper badge](https://badges.greenkeeper.io/nescalante/url-compare.svg)](https://greenkeeper.io/)
 
 > Url comparisons for humans
 
